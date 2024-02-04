@@ -71,9 +71,10 @@
 }
 
 .disk{
-  height: 20px;
+  height: 25px;
   background-color: blue;
-  width: 100px;
+  width: 150px;
+  border-radius: 5px;
 }
 
 .dics{
@@ -81,6 +82,8 @@
   flex-direction: column;
   align-items: center;
   gap: 3px;
+  justify-content: end;
+  height: 100%;
 }
 
 .tower.selected .line{
